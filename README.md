@@ -9,7 +9,7 @@
 
 <br>
 
-<p><kbd>Codex Skill</kbd> <kbd>Version v1.0.1</kbd> <kbd>Language 中文</kbd> <kbd>Series PM Workflow</kbd></p>
+<p><kbd>Codex Skill</kbd> <kbd>Language 中文</kbd> <kbd>Series PM Workflow</kbd></p>
 
 </div>
 
@@ -49,12 +49,12 @@ PM PRD 助手用于澄清、撰写、修订和审查 App / Web PRD。
 
 ## 🧩 工作方式
 
-这个 Skill 默认不会一上来就写正文，而是先判断信息是否足够。
+这个 Skill 默认先判断信息是否足够。信息足够就直接推进；信息不足再追问。
 
-- 新写 PRD：先做澄清门检查
+- 新写 PRD：先确认关键信息是否足够
 - 独立增量 PRD：先确认范围、差异和影响面
 - 修改已有 PRD：先识别要改的位置和上下文
-- 仅评审 PRD：优先输出问题、风险和改进建议
+- 仅评审 PRD：先判断是一次性报告，还是评审后继续修改
 - 信息不足时：每轮只问一个最关键的问题
 
 ## 🚦 边界
