@@ -6,8 +6,8 @@ description: >-
   version PRDs, existing PRD updates, and independent incremental PRDs.
   Not a substitute for engineering architecture or implementation specs.
 metadata:
-  version: v1.1.0
-  updated: 2026-09-11
+  version: v1.1.1
+  updated: 2026-11-05
 ---
 
 # PM PRD Copilot
@@ -36,7 +36,9 @@ metadata:
 
 根据内容和阅读需要，自主选择清楚、易读的表达方式。
 
-保留帮助读者理解需求、作出判断和完成开发的内容，说明深度按需要决定。共用规则集中维护，相关位置可以简短引用或说明其影响。目标、范围、核心行为和相关状态、异常、边界、依赖等必要信息，不因追求简短而省略。
+正文只写影响本次开发的内容：说明如何实现、如何验收，或消除很可能发生的范围与行为误解。背景也按此取舍，不因与产品有关就保留。相关状态、异常、边界和依赖按实际影响写清，不为完整感逐项补全。
+
+内部需要核对既有行为是否受影响，不代表正文要逐项声明“不变”。不做的事项、已有行为不变的内容，默认不单独展开；只有省略会造成误实现、范围争议或验收歧义时才简短说明。需要实现和验收的禁止、排除行为仍是需求，不能按否定句机械删除。
 
 ## 修改边界
 
